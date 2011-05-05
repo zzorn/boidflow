@@ -9,12 +9,12 @@ class Project(info: ProjectInfo) extends DefaultProject(info) with IdeaProject w
   val scalatest = "org.scalatest" % "scalatest" % "1.3"
 
   // Store all JME3 jar files in own directory under lib/
-//  def jme3Jars = descendents("lib" / "jme3", "*.jar")
+  def jme3Jars = descendents("lib" / "jme3", "*.jar")
 
   // Simplex libs
-//  def simplex3dJars = descendents("lib" / "simplex3d", "*.jar")
+  def simplex3dJars = descendents("lib" / "simplex3d", "*.jar")
 
-//  override def unmanagedClasspath = super.unmanagedClasspath +++ jme3Jars +++ simplex3dJars
+  override def unmanagedClasspath = super.unmanagedClasspath +++ jme3Jars +++ simplex3dJars
 
 /*
   // Akka libraries, uncomment if / as needed. 
