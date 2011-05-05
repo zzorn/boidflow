@@ -1,4 +1,4 @@
-= Crittersphere =
+= Boidflow =
 
 == About ==
 
