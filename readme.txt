@@ -2,7 +2,7 @@
 
 == About ==
 
-Simulated environment with evolving artificial critters.
+Simulated environment with evolving artificial creatures.
 
 
 == License ==
